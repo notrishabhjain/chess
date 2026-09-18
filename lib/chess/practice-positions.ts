@@ -16,7 +16,7 @@ export const practicePositions: PracticePosition[] = [
     id: "knight-training",
     name: { en: "Knight training", hi: "घोड़े का अभ्यास" },
     description: { en: "Explore the knight's legal jumps from d4.", hi: "d4 से घोड़े की सही छलांगें देखें।" },
-    fen: "8/8/8/8/3N4/8/8/4K3 w - - 0 1",
+    fen: "4k3/8/8/8/3N4/8/8/4K3 w - - 0 1",
   },
   {
     id: "mate-in-one",
