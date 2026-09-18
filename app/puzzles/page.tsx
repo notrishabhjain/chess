@@ -1,0 +1,1 @@
+export default function Page(){return <main className="shell page"><section className="card panel"><span className="tag">Phase 1</span><h1>Puzzles</h1><p>This foundation release focuses on the complete onboarding → lesson → progress journey. Puzzles will arrive in the next vertical slice rather than presenting non-working controls.</p></section></main>}
