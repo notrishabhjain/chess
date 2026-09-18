@@ -1,6 +1,6 @@
 # ChessMentor
 
-ChessMentor is a bilingual (English/Hindi) learning-first chess web app. Phase 1 delivers a runnable local vertical slice: onboarding, a language switcher, three interactive beginner lessons powered by `chess.js`, coaching hints/feedback, and browser-persisted progress.
+ChessMentor is a bilingual (English/Hindi) learning-first chess web app. Phase 1 delivers a runnable local vertical slice: onboarding, a language switcher, three interactive beginner lessons powered by `chess.js`, coaching hints/feedback, browser-persisted progress, and a free-practice board with legal-move validation, undo, board flip, move history, and PGN import.
 
 ## Stack
 
@@ -29,6 +29,6 @@ pnpm build
 
 ## Product status
 
-This initial release intentionally implements Phase 1 only. The foundation is functional, but authentication/cloud sync, puzzles, computer play, engine analysis, and persistent Supabase migrations are planned subsequent vertical slices—not simulated UI features.
+The foundation includes the Phase 2 chess-core practice board. Authentication/cloud sync, puzzles, computer play, engine analysis, and persistent Supabase migrations are planned subsequent vertical slices—not simulated UI features.
 
 See [architecture](docs/ARCHITECTURE.md), [product scope](docs/PRODUCT.md), [curriculum](docs/CURRICULUM.md), [database plan](docs/DATABASE.md), and [development guide](docs/DEVELOPMENT.md).

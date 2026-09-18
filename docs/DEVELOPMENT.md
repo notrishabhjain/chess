@@ -8,3 +8,7 @@ Use pnpm. Run `pnpm dev` for local development and execute test, lint, typecheck
 - No database migration is included because this vertical slice deliberately runs with no Supabase credentials.
 - Known limitation: puzzle/play routes explicitly state they are deferred; account sync and the full content library are later phases.
 - Next step: add Supabase Auth/migrations and authenticated synchronization, then build the puzzle vertical slice.
+
+## Chess core update
+
+The Practice page now provides a real legal-move board: click-to-move, drag-and-drop, board flip, undo, restart, move history, sample positions, and defensive PGN import. Invalid PGN produces a learner-facing message rather than an exception.
